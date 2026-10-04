@@ -6,4 +6,4 @@ The JSON and Markdown descriptions are readable by humans and tools. The HTML pa
 
 Do not add real account files, project snapshots, transcripts, task logs, client names or paid/licensed source footage. Review every milestone before publishing. Project source still requires its own licensing decision. No automatic private activity export is configured.
 
-GitHub authentication is unavailable to the current agent session; no public repository has been created or pushed.
+Public showcase repository: https://github.com/codebreaks13/OddFlock-Portfolio. Publishing this repository does not enable website hosting automatically.
