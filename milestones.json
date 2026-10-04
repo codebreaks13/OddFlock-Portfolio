@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-05",
+  "publication": "Local preview only; publishing pending",
+  "privacy": "Manually curated public milestones. No live account, chat, task prompt or private Git export.",
+  "projects": [
+    {
+      "id": "MediaForge",
+      "name": "MediaForge",
+      "tagline": "Assisted media production and a segmented news desk.",
+      "stack": "React \u00b7 TypeScript \u00b7 Node.js \u00b7 SQLite \u00b7 Canvas",
+      "description": "Create editable sports posters with Bangla typography, reusable layouts, source credits and an editor approval step. A separate news miner collects and organises stories for review and export.",
+      "features": [
+        "Editable poster layouts and PNG export",
+        "Source attribution and permission notes",
+        "Topic queues, duplicate handling and historical storage"
+      ],
+      "status": "Local prototype; synthetic poster workflow demonstrated.",
+      "milestones": [
+        {
+          "date": "2026-10-04",
+          "title": "Poster editing and export demonstrated",
+          "status": "Runtime observed",
+          "detail": "Synthetic input used to inspect controls, preview and PNG output."
+        },
+        {
+          "date": "2026-10-04",
+          "title": "News collection and review workflow prepared",
+          "status": "Implemented",
+          "detail": "Segmented queues, source links and review states available in the local desk."
+        }
+      ],
+      "image": "assets/mediaforge-poster.png"
+    },
+    {
+      "id": "ClaudeCodex",
+      "name": "ClaudeCodex",
+      "tagline": "A workspace for coordinating cloud agents and local models.",
+      "stack": "Python \u00b7 React \u00b7 TypeScript \u00b7 Local models",
+      "description": "Coordinate development tasks through staged workspaces, agent handoffs and reviewable changes. The owner controls account access and decides when changes are applied.",
+      "features": [
+        "Explicit laptop-folder import and PC workspaces",
+        "Staged development with review, Apply and Undo",
+        "Task activity, changed files and read-only Git status"
+      ],
+      "status": "Local development workspace; not a public hosted agent service.",
+      "milestones": [
+        {
+          "date": "2026-10-05",
+          "title": "Laptop project import and return workflow",
+          "status": "Runtime observed",
+          "detail": "A synthetic folder was selected in the laptop browser, imported to a PC copy and downloaded as a ZIP."
+        },
+        {
+          "date": "2026-10-05",
+          "title": "Task and Git activity panel",
+          "status": "Implemented",
+          "detail": "Shows current-project task states, agents, changed files, commits and clearly labelled remote verification."
+        }
+      ]
+    },
+    {
+      "id": "RestoSIP",
+      "name": "RestoSIP",
+      "tagline": "Restaurant stock, inventory and point of sale in a desktop app.",
+      "stack": "React \u00b7 TypeScript \u00b7 Rust \u00b7 Local storage",
+      "description": "Record sales, manage orders and track stock movements through a restaurant desktop workflow. Reporting and backup tools support local operation.",
+      "features": [
+        "Sales and order workflows",
+        "Stock movement tracking",
+        "Reports and local backup workflows"
+      ],
+      "status": "Desktop prototype; no customer adoption or revenue claimed.",
+      "milestones": [
+        {
+          "date": "2026-10-04",
+          "title": "Project capability review",
+          "status": "Source inspected",
+          "detail": "Desktop packaging, stock and point-of-sale modules identified in the existing project."
+        }
+      ]
+    }
+  ]
+}

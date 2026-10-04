@@ -1,0 +1,12 @@
+.env*
+!.env.example
+*.key
+*.pem
+credentials.json
+*.pre-*
+*.before-*
+*.backup*
+node_modules/
+dist/
+__pycache__/
+*.log

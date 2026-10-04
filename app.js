@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-filter]').forEach(button=>{button.addEventListener('click',()=>{const filter=button.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));document.querySelectorAll('[data-project]').forEach(item=>{item.hidden=filter!=='all'&&item.dataset.project!==filter;});});});
